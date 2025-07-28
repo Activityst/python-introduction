@@ -11,6 +11,5 @@ def test_multiple3() ->str:
     assert fizzbuzz(100)
 
 def test_division5() ->str:
-    assert fizzbuzz(55)
+    assert fizzbuzz(55) == "Fizz"
 
-for num in test_division5():
