@@ -12,3 +12,5 @@ def test_multiple3() ->str:
 
 def test_division5() ->str:
     assert fizzbuzz(55)
+
+for num in test_division5():

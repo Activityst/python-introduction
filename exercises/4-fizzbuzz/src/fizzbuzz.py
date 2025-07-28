@@ -7,3 +7,4 @@ def fizzbuzz(number: int) -> str:
         return "Buzz"
     else:
         return str(number)
+
