@@ -1,4 +1,4 @@
-from src import fizzbuzz
+from fizzbuzz import fizzbuzz
 
-# def test_fizzbuzz():
-#     assert fizzbuzz(1)
+def fizzbuzz(a):
+    assert 15
