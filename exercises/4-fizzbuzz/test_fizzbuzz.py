@@ -14,3 +14,5 @@ def test_2():
 
 def test_3( ):
     assert fizzbuzz(3)== "Fizz"
+def test_5():
+    assert fizzbuzz(5)== "buzz"
