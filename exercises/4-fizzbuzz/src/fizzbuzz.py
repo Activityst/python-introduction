@@ -1,5 +1,5 @@
 def fizzbuzz(number: int) -> str:
-    if number % 3 == 0 and number % 5 == 0 or '3'or '5' in str(number):
+    if number % 3 == 0 and number % 5 == 0 or '3' in str(number):
         return "FizzBuzz"
     elif number % 3 == 0 or '3' in str(number):
         return "Fizz"
