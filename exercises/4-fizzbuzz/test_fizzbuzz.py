@@ -15,4 +15,9 @@ def test_2():
 def test_3( ):
     assert fizzbuzz(3)== "Fizz"
 def test_5():
-    assert fizzbuzz(5)== "buzz"
+    assert fizzbuzz(5)== "Buzz"
+
+def test_15():
+    assert fizzbuzz(15)=="FizzBuzz"
+def test_19():
+    assert fizzbuzz(19)=="19"
