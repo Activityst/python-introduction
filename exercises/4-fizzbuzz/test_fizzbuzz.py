@@ -1,4 +1,5 @@
 from fizzbuzz import fizzbuzz
 
-def fizzbuzz(a):
-    assert 15
+def fizzbuzz():
+assert fizzbuzz(1)
+assert fizzbuzz(15)
