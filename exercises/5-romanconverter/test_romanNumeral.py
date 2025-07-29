@@ -20,3 +20,32 @@ def test_nb19():
     assert dec_to_rom(19)== "XIX"
 def test_convI():
     assert rom_to_dec('I') == 1
+def test_convII():
+    assert rom_to_dec('II') == 2
+def test_concIV():
+    assert rom_to_dec('IV') == 4
+
+
+def test_concV():
+    assert rom_to_dec('V') == 5
+
+
+def test_convIX():
+    assert rom_to_dec('IX') == 9
+
+
+def test_concXIX():
+    assert rom_to_dec('XIX') == 19
+
+
+def test_concIC():
+    assert rom_to_dec('IC') == 99
+
+
+def test_concC():
+    assert rom_to_dec('C') == 100
+
+
+def test_convMMCDXCVIII():
+    assert rom_to_dec('MMCDXCVIII') == 2498
+
