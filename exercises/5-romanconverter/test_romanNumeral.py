@@ -16,3 +16,5 @@ def test_num9():
     assert jn(9)== "IX"
 def test_nb14():
     assert jn(14)== "XIV"
+def test_nb3979():
+    assert jn(3979)== "MMMCMLXXIX"
