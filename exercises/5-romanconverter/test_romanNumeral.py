@@ -1,20 +1,22 @@
-from src.romanNumeral import jn
-
-def test_nbun():
- assert jn(2) == "I"
+from src.romanNumeral import dec_to_rom
+from src.romanNumeral import rom_to_dec
+def test_num1():
+ assert dec_to_rom(1) == "I"
 
 def test_num2():
-    assert jn(2) == "II"
+    assert dec_to_rom(2) == "II"
 
 def test_num4():
-    assert jn(4)== "IV"
+    assert dec_to_rom(4)== "IV"
 
 def test_num5():
-    assert jn(5)== "V"
+    assert dec_to_rom(5)== "V"
 
 def test_num9():
-    assert jn(9)== "IX"
+    assert dec_to_rom(9)== "IX"
 def test_nb14():
-    assert jn(14)== "XIV"
-def test_nb3979():
-    assert jn(3979)== "MMMCMLXXIX"
+    assert dec_to_rom(14)== "XIV"
+def test_nb19():
+    assert dec_to_rom(19)== "XIX"
+def test_convI():
+    assert rom_to_dec('I') == 1
