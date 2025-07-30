@@ -1,13 +1,14 @@
-#write code here
+from .RegularFrame import RegularFrame
 class Bowling:
-    def zero(self, score):
-        nb_quille =(score == 0)
-        return nb_quille
+    frames: list[RegularFrame]
+
+    def __init__(self, frames_as_string: str):
+        frames_as_string_list = frames_as_string.split()
+        self.regular_frames = frames_as_string_list[0]
 
 
 
-    def Point(self, score):
-        nb_quille = (score != 0 and score < 10)
-        return nb_quille
 
-    #def Spare(self, score):
+
+   # def calc (s: str):
+
