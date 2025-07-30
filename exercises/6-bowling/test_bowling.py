@@ -1,4 +1,8 @@
-from src.bowling import Bowling0
+from src.bowling import Bowling
 def test_0quille():
-    bowling = Bowling0()
-    assert bowling.zero(0 + 0) == 0
+    bowling0 = Bowling()
+    assert bowling0.zero(0 + 0) == True
+
+def test_1quille():
+    bowling1 = Bowling()
+    assert bowling1.zero(0+1) == True
