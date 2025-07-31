@@ -9,8 +9,6 @@ class RegularFrame:
     def convert_frame(self, frame: str)-> int:
         if frame == '-':
             return 0
-        elif frame == 'X':
-            return 10
         return int (frame)
 
     def calc_frame(self):

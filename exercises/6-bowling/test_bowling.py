@@ -4,10 +4,10 @@ def test_0quilles():
     bowling0 = Bowling("-- -- -- -- -- -- -- -- -- --")
     assert bowling0.calc() == 6
 def test_bowling_part2():
-    party_2= Bowling("35 78 66 --")
-    assert  party_2.calc()==35
+    party_2= Bowling("35 78 66 -- -- -- -- -- -- 1-")
+    assert party_2.calc()==36
 
-def test_bowling_strike():
-    strike= Bowling( " X 36 --")
-    assert  strike.calc() == 19
+def test_bowling_spare():
+    spare= Bowling( " 9/ 3/ -- 15 72 -- 16 4/ 15 11 ")
+    assert spare.calc() == 64
 
