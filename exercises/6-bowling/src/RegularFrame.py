@@ -3,10 +3,14 @@ class RegularFrame:
     lance_2 :int
 
     def __init__(self, frame: str):
-       self.lance_1=4
+       self.lance_1 = self.convert_frame(frame[0])
+       self.lance_2 = self.convert_frame(frame[1])
 
+    def convert_frame(self, frame: str)-> int:
+        if frame == '-':
+            return 0
+        return int (frame)
 
-    def convert_char(self, value):
-        if value == 0:
-            return '-'
-        return str(value)
+    def calc_frame(self):
+        return self.lance_1 + self.lance_2
+        

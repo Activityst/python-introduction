@@ -4,11 +4,15 @@ class Bowling:
 
     def __init__(self, frames_as_string: str):
         frames_as_string_list = frames_as_string.split()
-        self.regular_frames = frames_as_string_list[0]
+        temp_list=[]
+        for frame_1 in frames_as_string_list :
+            temp_list.append(RegularFrame(frame_1))
+        self.frames= temp_list
 
+    def calc(self) -> int:
+        total_score = 0
+        for frame in self.frames:
+            total_score += frame.calc_frame()
+        return total_score
 
-
-
-
-   # def calc (s: str):
 
