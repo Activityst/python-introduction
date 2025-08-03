@@ -23,3 +23,5 @@ def test_19():
     assert fizzbuzz(19)=="19"
 def test_73():
     assert fizzbuzz(73) == "Fizz"
+def test_97():
+    assert fizzbuzz(97)== "97"

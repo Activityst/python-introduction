@@ -1,4 +1,4 @@
-## 🎳 Description du problème
+l## 🎳 Description du problème
 
 Tu dois créer un programme qui, à partir d'une séquence valide de lancers pour une partie de bowling à 10 quilles (version américaine), calcule le score total de la partie.
 
